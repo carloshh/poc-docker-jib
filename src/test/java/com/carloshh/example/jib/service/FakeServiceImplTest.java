@@ -8,5 +8,8 @@ public class FakeServiceImplTest {
 
     @Test
     public void uncoveredLines() {
+        var fakeServiceImpl = new FakeServiceImpl();
+
+        fakeServiceImpl.uncoveredLines();
     }
 }
